@@ -9,7 +9,7 @@ p {
 }
 
 ul,
-link , li {
+link , li ,a {
   text-decoration: none;
   list-style-type: none;
 }
@@ -234,4 +234,229 @@ link , li {
 .galery__btn{
   max-width: 214px;
   margin: 0 auto;
+}
+.pottery{
+  background-image: url(../img/pottery/pottery__bckg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 121px 0 120px;
+}
+.pottery .pretitle{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 7px;
+}
+.pottery .title{
+  font-size: 36px;
+  line-height: 46px;
+}
+.pottery .text{
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.text span{
+  color: #AC1313;
+  text-decoration: underline;
+}
+.forma{
+  padding: 122px 0 162px;
+  text-align: center;
+  border-bottom: 1px solid #EBEBEB;
+}
+.forma .content{
+  margin: 0 auto;
+  margin-bottom: 63px;
+}
+.forma__img{
+  margin-bottom: 40px;
+}
+.forma .pretitle{
+  color: #D77474;
+  margin-bottom: 8px;
+}
+.forma .title{
+  min-width: 572px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+}
+.form .flex{
+  justify-content: center;
+  column-gap: 4px;
+  margin-bottom: 42px;
+}
+.form__input{
+  box-sizing: border-box;
+  width: 320px;
+  height: 45px;
+  padding: 13px 0 12px 25px;
+  border: 1px solid #EBEBEB;
+  border-radius: 0px;
+}
+.form__btn{
+  width: 175px;
+  height: 45px;
+  background: #000000;
+  border-radius: 0px;
+  border: none;
+  color: #fff;
+}
+.form__lable{
+  max-width: 170px;
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #A1A1A1;
+}
+.checkbox{
+  opacity: 0;
+}
+.fake{
+  top: 1px;
+  right: 6px;
+  display: inline-block;
+  position: relative;
+  width: 13px;
+  height: 13px;
+  border: 1px solid #A1A1A1;
+  margin-left: 10px;
+}
+.fake::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #8534FF;
+  opacity: 0;
+}
+.checkbox:checked~.fake::before {
+  opacity: 1;
+}
+.footer{
+  padding: 107px 0 0;
+  text-align: center;
+}
+.conteiner > img{
+  margin-bottom: 30px;
+}
+.footer .text{
+  margin: 0 auto;
+  max-width: 340px;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 70px;
+}
+.footer ul{
+  margin-bottom: 90px;
+}
+.footer__icon{
+  margin-bottom: 10px;
+}
+.footer_text{
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 23px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.footer__li .text{
+  max-width: 188px;
+}
+.template{
+  padding: 33px 0 30px;
+  background: rgba(219, 219, 219, 0.1);
+  border-top: 1px solid rgba(235, 235, 235,.5);
+}
+.template__text{
+  font-family: 'Libre Franklin';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #6C6C6C;
+}
+.template__text a{
+  font-family: 'Libre Franklin';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #000000;
+}
+.title img{
+  padding-bottom: 10px;
+}
+.product .conteiner{
+  position: relative;
+}
+.product .conteiner::before{
+  content: "Hand Craft Pottery";
+  position: absolute;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #DBDBDB;
+  writing-mode: tb-rl;
+  transform:rotate(180deg);
+  top: 25%;
+  left: -50px;
+}
+.galery .conteiner{
+  position: relative;
+}
+.galery .conteiner::before{
+  content: "Product Collections";
+  position: absolute;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #DBDBDB;
+  writing-mode: tb-rl;
+  transform:rotate(180deg);
+  top: 38%;
+  left: -50px;
+}
+.gold .conteiner{
+  position: relative;
+}
+.gold .conteiner::after{
+  content: "Featured Products";
+  position: absolute;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #DBDBDB;
+  writing-mode: tb-rl;
+  transform:rotate(180deg);
+  top: 30%;
+  right: -50px;
+}
+.forma .conteiner{
+  position: relative;
+}
+.forma .conteiner::after{
+  content: "Let's Get In touch";
+  position: absolute;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #DBDBDB;
+  writing-mode: tb-rl;
+  transform:rotate(180deg);
+  top: 30%;
+  right: -50px;
 }
