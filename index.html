@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato&family=Libre+Franklin:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./style/main.css">
+  <link rel="stylesheet" href="./style/media.css">
   <title>Pompeo</title>
 </head>
 <body>
@@ -32,7 +33,7 @@
   </header>
   <main>
     <section class="introduce">
-      <div class="conteiner flex">
+      <div class="conteiner flex column">
         <div class="content">
           <h2 class="pretitle red">
             Pompeo POttery
@@ -55,7 +56,7 @@
           <h2 class="pretitle red">Product Categories</h2>
           <h1 class="title">Porcelain <span class="product__span"><img src="./img/introduce/after.svg" alt="icon"></span> Pottery</h1>
         </div>
-        <ul class="flex product-flex">
+        <ul class="flex product-flex column">
             <li class="product__li">
               <div class="center-column">
                 <img class="product__li-img" src="./img/product/icon1.svg" alt="icon">
@@ -75,7 +76,7 @@
               </div>
             </li>
           </ul>
-        <div class="product__info flex">
+        <div class="product__info flex column">
           <div class="content">
             <div class="title">Hand Grafted Pottery since 1990</div>
             <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus posuere.</p>
@@ -89,7 +90,7 @@
     </section>
     <section class="gold">
       <div class="conteiner">
-        <div class="wrapper flex">
+        <div class="wrapper flex column">
           <div class="gold__img">
             <img class="gold__icon" src="./img/gold/Gold__img.png" alt="img">
           </div>
@@ -99,7 +100,7 @@
             <a class="pretitle">View Details</a>
           </div>
         </div>
-        <div class="wrapper flex">
+        <div class="wrapper flex column-reverse">
           <div class="content">
             <h1 class="title">Orange Ceramic</h1>
             <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore dolore aua. Ut enim ad minim veniam, quis nostrud exercitationulco laboris nisi ut aliquip ex ea commodo consequatuisaute.</p>
@@ -171,10 +172,10 @@
             <img class="forma__icon" src="./img/forma/forma__icon.jpg" alt="img">
           </div>
           <h2 class="pretitle">Latest news</h2>
-          <h1 class="title">Latest news <img src="./img/introduce/after.svg" alt="icon"> New updates</h1>
+          <h1 class="title">Latest news <span class="product__span"><img src="./img/introduce/after.svg" alt="icon"></span> New updates</h1>
         </div>
         <form class="form">
-          <div class="flex">
+          <div class="flex column">
             <input class="form__input" type="email" placeholder="Enter your email">
             <button class="form__btn">SUBSCRIBE</button>
           </div>
@@ -191,7 +192,7 @@
     <div class="conteiner">
       <img src="./img/header/logo.svg" alt="logo">
       <p class="text">I have always striven to fix beauty in wood, stone, glass or pottery, that has been my creed.</p>
-      <ul class="flex">
+      <ul class="flex column">
         <li class="footer__li">
           <img class="footer__icon" src="./img/footer/footer__icon1.svg" alt="icon">
           <p class="footer_text">EMAIL</p>
@@ -209,12 +210,18 @@
         </li>
       </ul>
     </div>
-    <div class="template">
-      <p class="template__text">Template design by <a href="#"> Dorian Hoxha</a> - <a href="#"> Image License Info</a> Powered by <a href="#"> Webflow</a></p>
+    <div class="template flex column">
+      <p class="template__text">Template design by</p>
+      <a href="#">Dorian Hoxha</a>
+      <p class="template__text">-</p>
+      <a href="#">Image License Info</a>
+      <p class="template__text">Powered by</p>
+      <a href="#">Webflow</a>
     </div>
   </footer>
   <div class="modal__overlay">
     <div class="modal">
+      
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quam enim ad ea, aspernatur pariatur, laboriosam rem quasi praesentium nam sunt ipsa neque quos deserunt accusantium provident tenetur natus ipsam est saepe nisi. Similique, rem.
       </p>
       <div class="close">X</div>

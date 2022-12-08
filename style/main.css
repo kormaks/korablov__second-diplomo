@@ -374,6 +374,8 @@ link , li ,a {
   padding: 33px 0 30px;
   background: rgba(219, 219, 219, 0.1);
   border-top: 1px solid rgba(235, 235, 235,.5);
+  justify-content: center;
+  column-gap:10px
 }
 .template__text{
   font-family: 'Libre Franklin';
@@ -382,7 +384,7 @@ link , li ,a {
   line-height: 22px;
   color: #6C6C6C;
 }
-.template__text a{
+.template__text + a{
   font-family: 'Libre Franklin';
   font-weight: 400;
   font-size: 12px;
