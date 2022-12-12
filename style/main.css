@@ -341,7 +341,7 @@ link , li ,a {
   padding: 107px 0 0;
   text-align: center;
 }
-.conteiner > img{
+.footer .conteiner > img{
   margin-bottom: 30px;
 }
 .footer .text{
@@ -488,4 +488,7 @@ link , li ,a {
   top: 20px;
   right: 20px;
   cursor: pointer;
+}
+.line-checkbox{
+  display: none;
 }

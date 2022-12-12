@@ -17,18 +17,26 @@
   <header class="header">
     <div class="conteiner flex">
       <img src="./img/header/logo.svg" alt="Logo">
-      <nav class="flex">
-        <li class="nav__li">Home</li>
-        <li class="nav__li">About</li>
-        <li class="nav__li">Shop</li>
-        <li class="nav__li">Contact</li>
-        <li class="nav__li flex">
-          <div class="nav__icon">
-            <img  src="./img/header/icon.png" alt="icon">
-          </div>
-          <p class="nav__text">Cart</p>
-        </li>
-      </nav>
+      <div class="menu">
+        <input class="line-checkbox" type="checkbox">
+        <div class="checked--wrapper">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <nav class="header__nav flex">
+          <li class="nav__li">Home</li>
+          <li class="nav__li">About</li>
+          <li class="nav__li">Shop</li>
+          <li class="nav__li">Contact</li>
+          <li class="nav__li flex">
+            <div class="nav__icon">
+              <img  src="./img/header/icon.png" alt="icon">
+            </div>
+            <p class="nav__text">Cart</p>
+          </li>
+        </nav>
+      </div>
     </div>
   </header>
   <main>
@@ -230,5 +238,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="./script/script.js"></script>
   <script src="./script/modal.js"></script>
+  <script src="./script/menu.js"></script>
 </body>
 </html>
